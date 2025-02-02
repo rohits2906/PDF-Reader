@@ -46,8 +46,8 @@ This project is open for contributions. Any improvements related to the performa
 
 ### 8. **Curl Command to Test the API**
 
-- **Uploading**: curl -X POST -F "file=@Path_to_pdf\filename.pdf" http://127.0.0.1:8000/api/upload/ .
-- **QuestionAnswer**: curl -X POST -d "{\"question\": \"Your Question\"}" -H "Content-Type: application/json" http://127.0.0.1:8000/api/qa/ .
+- **Uploading**: curl -X POST -F "file=@Path_to_pdf\filename.pdf" http://localhost:8000/api/upload/ .
+- **QuestionAnswer**: curl -X POST -d "{\"question\": \"Your Question\"}" -H "Content-Type: application/json" http://localhost:8000/api/qa/ .
 
 ---
 
