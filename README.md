@@ -44,9 +44,10 @@ The `Document` model consists of the following fields:
 
 This project is open for contributions. Any improvements related to the performance of the document query mechanism or additions like document classification, more advanced NLP processing, or integration with other databases are welcome.
 
-### 7. **Curl Command to Test the API**
--**Uploading**: curl -X POST -F "file=@Path_to_pdf\filename.pdf" http://127.0.0.1:8000/api/upload/ .
--**QuestionAnswer**: curl -X POST -d "{\"question\": \"Your Question\"}" -H "Content-Type: application/json" http://127.0.0.1:8000/api/qa/ .
+### 8. **Curl Command to Test the API**
+
+- **Uploading**: curl -X POST -F "file=@Path_to_pdf\filename.pdf" http://127.0.0.1:8000/api/upload/ .
+- **QuestionAnswer**: curl -X POST -d "{\"question\": \"Your Question\"}" -H "Content-Type: application/json" http://127.0.0.1:8000/api/qa/ .
 
 ---
 
